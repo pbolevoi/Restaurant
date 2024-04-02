@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.button{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff7400;
+    padding: 14px 18px;
+    max-width: 157px;
+    height: 47px;   
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 165px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 34px;
+}
+.navigation ul::after{
+    content: url();
+    border-right: 1px solid #fff;
+    height: 51px;
+}
+.navigation nav li{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 25px;
+    text-decoration: #fff;
+}
+.navigation nav li:nth-child(4){
+    padding-right: 36px;
+}
+.phone{
+    display: block;
+    max-width: 166px;
+    margin-right: 45px;
+    
+}
+.phone div{
+    display: flex;
+}
+.phone a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 8px;
+}
+.phone span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hello{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 175px;
+    position: absolute;
+}
+.hello h2{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #d67e35;
+}
+.hello h1{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #d67e35;
+    margin-bottom: 12px;
+}
+.hello h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 34px;
+    position: relative;
+}
+.hello h4::before{
+    content: "";
+    width: 61px;
+    height: 2px;    
+    position: absolute;
+    background-color: #c4c4c4;
+    top: 12px;
+    left: 82px;
+}
+.hello h4::after{
+    content: "";
+    width: 61px;
+    height: 2px;    
+    position: absolute;
+    background-color: #c4c4c4;
+    top: 12px;
+    left: 335px;
+}
+
+/* main */
+.container{
+    max-width: 1108px;
+    margin: auto;
+}
+.container_history{
+    max-width: 1108px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: -105px;
+    position: absolute;
+}
+.card_item{
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+    padding-top: 48px;
+    margin-right: 31px;
+}
+.card_item:last-child{
+    margin-right: 0;
+}
+.card_item h4{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #2c2c2c;
+    padding-bottom: 20px;
+}
+.card_item p{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: #656363;
+    padding-bottom: 12px;
+}
+.color{
+    color: #bc9060;
+}
+.color_2{
+    color: #d67e34;
+}
+
+.history{
+    text-align: center;
+    margin-top: 372px;
+    max-width: 444px;
+    align-items: center;
+    padding-bottom: 182px;
+}
+.history_holder{
+    display: flex;
+    justify-content: space-between;
+}
+.history_number{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 54px;
+    padding-right: 54px;
+    
+}
+.history h2{
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 21px;
+}
+.history p{
+    color: #656363;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 39px;
+}
+.history_number h5{
+    color: #BC9060;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 2px;
+}
+.history_number span{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* img history */
+.h_img1{
+    position: absolute;
+    z-index: 1;
+    top: 405px;
+    left: 866px;
+}
+.h_img2{
+    position: absolute;
+    z-index: 2;
+    top: 346px;
+    left: 786px;
+}
+.h_img3{
+    position: absolute;
+    z-index: 3;
+    top: 537px;
+    left: 884px;
+}
+.h_img4{
+    position: absolute;
+    z-index: 4;
+    top: 376px;
+    left: 576px;
+}
+
+/*  */
+.sec_offer{
+    background-image: url(../img/offer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.cont_offer{
+    padding-top: 80px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont_offer h3{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    color: #d67e34;
+    padding-bottom: 20px;
+}
+.cont_offer p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.sec_meals{
+    padding-top: 132px;
+    padding-bottom: 150px;
+}
+.sec_meals h3{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #000;
+    margin-bottom: 138px;
+    text-align: center;
+}
+.our_meals{
+    display: flex;
+    justify-content: space-between;
+}
+.img_burger{
+    flex-direction: column;
+}
+.img_burger img{
+    padding-bottom: 23px;
+}
+.our_meals ul{
+    list-style: none;
+}
+.our_meals ul li{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000;
+    padding-bottom: 140px;
+}
+.our_meals ul li:first-child{
+    padding-top: 40px;
+}
+
+.sec_menu{
+    background-image: url(../img/menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 226px;
+    position: relative;
+}
+.sec_menu::after{
+    content: '';
+    background-color: #d67e34;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    top: 528px;
+    left: 68px;
+    position: absolute;
+}
+.sec_menu::before{
+    content: '';
+    background-color: #d67e34;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    top: 528px;
+    left: 1330px;
+    position: absolute;
+}
+.sec_menu h3{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #fff;
+    text-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 138px;
+}
+.our_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.card_burger{
+    background: #fff;
+    padding: 80px 62px 29px;
+    max-width: 350px;
+    text-align: center;
+    align-items: stretch;
+    position: relative;
+}
+.card_burger:first-child::after{
+    content: 'RECOMMENDED';
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    background: #d67e34;
+    padding: 7px 11px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img_menu{
+    position: relative;
+}
+.img_menu::after{
+    content: '420';
+    font-family: "Cookie", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100%;
+    background: #d67e34;
+    border: solid 7px #fff;
+    padding: 24px;
+    position: absolute;
+    top: 132px;
+    left: 124px;
+
+}
+.card_burger img{
+    width: 225px;
+}
+.card_burger h4{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000;
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+.card_burger span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    display: block;
+}
+.button_2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+    background: #d67e34; 
+    width: 220px;
+    height: 50px; 
+    padding: 14px 68px;  
+}
+
+/*  */
+.review{
+    background-color: #e5e5e5;
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 108px;
+}
+.review_cont{
+    max-width: 920px;
+    margin: auto;
+}
+.review p{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.review h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+.review span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 26px;
+}
+
+/*  */
+.gallery{
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.gallery::before{
+    content: '';
+    position: absolute;
+    background-color: #f00;
+    width: 30px;
+    height: 100px;
+    top: 222px;
+    left: 0;
+}
+.gallery::after{
+    content: '';
+    position: absolute;
+    background-color: #f00;
+    width: 30px;
+    height: 100px;
+    top: 222px;
+    right: 0;
+}
+.gallery_food{
+    padding-bottom: 70px;
+}
+.gallery_food h3{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #000;
+    margin-bottom: 60px;
+}
+.gallery_img{
+    display: flex;
+}
+.gallery_img img{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.gallery_img img:last-child{
+    padding-right: 0;
+}
+
+.gallery_chefs{
+    padding-bottom: 44px;
+}
+.gallery_chefs h3{
+    font-family: "Tinos", sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #000;
+    margin-bottom: 106px;
+}
+.chefs_img{
+    display: flex;
+    margin-bottom: 50px;
+}
+.chefs_img img{
+    padding-right: 30px;
+}
+.chefs_img img:last-child{
+    padding-right: 0;
+}
+
+.img_foorer img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
