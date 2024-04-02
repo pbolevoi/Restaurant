@@ -473,6 +473,13 @@ header{
     color: #000;
     margin-bottom: 26px;
 }
+.points{
+    display: inline-flex;
+    align-items: center;
+}
+.points img{
+    padding-right: 2px;
+}
 
 /*  */
 .gallery{
